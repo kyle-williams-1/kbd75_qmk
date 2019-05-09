@@ -6,8 +6,8 @@ Hardware Availability: https://kbdfans.myshopify.com/products/kbd75-keyboard-set
 
 The KBD75 has two revisions. Revision 2 has a USB C port and allows a numpad layout. `.hex` files made
 for KBD75 revision 1, will still work for revision 2. `.hex` files made for revision 2 (excluding the numpad)
-will also still work on revision 1. Both revisions share the same switch matrix but have switch holes in 
-different areas. 
+will also still work on revision 1. Both revisions share the same switch matrix but have switch holes in
+different areas.
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -15,3 +15,7 @@ Make example for this keyboard (after setting up your build environment):
     make kbdfans/kbd75/rev2:default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+# Burn with this repo
+
+    make kbdfans/kbd75:kbd75_qmk:dfu
